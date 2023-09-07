@@ -1,0 +1,21 @@
+---
+  exclusions: ~
+  fail_over: 0
+  out_dir: "/tmp/scilint-not-nbdev-examples/"
+  precision: 3
+  print_syntax_errors: false
+  evaluate: true
+  nb_path_display: "parent"
+  warnings:
+    lt:
+      calls_per_func_median: 0
+      calls_per_func_mean: 0
+      in_func_pct: 0
+      tests_func_coverage_pct: 0
+      tests_per_func_mean: 0
+      markdown_code_pct: 10
+    gt:
+      total_code_len: 100000
+      loc_per_md_section: 3000
+    equals:
+      has_syntax_error: true
